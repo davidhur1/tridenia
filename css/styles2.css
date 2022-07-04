@@ -1,0 +1,70 @@
+.sub-menu {
+  
+    display: none;
+}
+
+.sub-menu > li{
+
+  padding: 5px;
+
+}
+
+.carousel-caption{
+
+  top: 30%;
+  z-index: 1;
+
+}
+
+.nav-item{
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.carousel-item:after{
+
+  content:"";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.card-img-overlay{
+
+  background-color: black;
+  top: inherit;
+  display: none;
+
+}
+
+#back1{
+
+  background-image: url("/img/back1.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#back2{
+
+background-image: url("/img/back2.jpg");
+background-position: center;
+background-size: cover;
+
+}
+
+#back3{
+
+background-image: url("/img/back3.jpg");
+background-position: center;
+background-size: cover;
+
+}
